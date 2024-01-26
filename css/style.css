@@ -9,6 +9,13 @@ body{
     margin: 0;
     padding: 0;
 }
+footer{
+    background-color: black;
+    height: 80px;
+    color: white;
+    text-align: center;
+}
+.footer p{padding-top: 40px;}
 
 /* NAVIGATION BAR */
 .nav-bar {
