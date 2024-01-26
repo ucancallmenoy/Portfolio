@@ -691,7 +691,7 @@ footer{
 
 /* RESPONSIVE */
 
-    @media(max-width:1024){
+    @media(max-width:1024px){
         .languages{
             width: 100%;
             max-width: 400px;
@@ -736,6 +736,7 @@ footer{
             transform: translateX(50%);
         }
     }
+
     @media(max-width: 610px){
         /* NAVBAR */
         .menu{
