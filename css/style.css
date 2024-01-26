@@ -691,6 +691,51 @@ footer{
 
 /* RESPONSIVE */
 
+    @media(max-width:1024){
+        .languages{
+            width: 100%;
+            max-width: 400px;
+            pad: 0 20px;
+            margin-left: 200px;
+            margin-bottom: -250px;
+        }
+        .languages1{
+            width: 100%;
+            max-width: 400px;
+            pad: 0 20px;
+            margin-left: 700px;
+            margin-bottom: 100px;
+        }
+        .language-name{
+            font-size: 14px;
+            font-weight: 700;
+            color: black;
+            text-transform: uppercase;
+            margin: 20px 0;
+        }
+        .language-bar{
+            height: 12px;
+            background: #282828;
+            border-radius: 3px;
+        }
+        .language-per{
+            height: 12px;
+            background:#323663;
+            border-radius: 3px;
+            position: relative;
+        }
+        .language-per::before{
+            content: attr(per);
+            position: absolute;
+            padding: 4px 6px;
+            background: whitesmoke;
+            border-radius: 4px;
+            font-size: 12px;
+            top: -35px;
+            right: 0;
+            transform: translateX(50%);
+        }
+    }
     @media(max-width: 610px){
         /* NAVBAR */
         .menu{
