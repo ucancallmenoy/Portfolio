@@ -693,7 +693,7 @@ footer{
 
 /* RESPONSIVE */
 
-    @media(max-width:1024px){
+    @media(max-width:1366px){
         .languages{
             width: 100%;
             max-width: 400px;
@@ -739,7 +739,7 @@ footer{
         }
     }
 
-    @media(max-width:769px){
+    @media(max-width:768px){
         .languages{
             width: 100%;
             max-width: 400px;
