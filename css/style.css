@@ -700,7 +700,49 @@ footer{
 
 /* RESPONSIVE */
         
-        
+@media(max-width: 1028px){
+    .project{
+        padding: 100px 0;
+        margin-bottom: -120px;
+      }
+    .content-projects{
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 50px 20px;
+    }
+    .flex-projects{
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 20px;
+    }
+    .project h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    .project p{
+        text-align: justify;
+        font-size: 16px;
+        line-height: 1.5;
+        color: black;
+        margin-bottom: 20px;
+    }
+    .project img{
+        display: block;
+        width: 420px;
+        max-width: 100%;
+        height: 250px;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    .social-links-project{
+        margin-bottom: 20px;
+        padding-left: 150px;
+}
+.prop{
+    margin-left: 250px;
+}
+}
        
 
     @media(max-width: 610px){
