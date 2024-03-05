@@ -30,8 +30,9 @@ footer{
     padding: 12px 20px;
 }
 .logo img{
-    width: 40px;
+    width: 59px;
 }
+
 .menu{display: flex;}
 .menu li{
     padding-left: 69px;
@@ -96,6 +97,9 @@ footer{
     color: darkgrey;
     font-weight: 800;
     margin-bottom: .5rem;
+}
+.logo {
+    width: 150px;
 }
 .title{
     font-size: 3.5rem;
@@ -222,6 +226,7 @@ footer{
 
   .text-p{
     font-size: 45px;
+    font-weight: 900;
     margin-bottom: 20px;
     color: #333;
     text-align: center;
@@ -298,6 +303,7 @@ footer{
     text-transform: uppercase;
     margin-bottom: 40px;
     margin-top: 10px;
+    font-weight: 900;
     
   }
   .skills-mobile{display: none;}
@@ -506,6 +512,7 @@ footer{
         font-size: 45px;
         margin-bottom: 20px;
         color: #333;
+        font-weight: 900;
     }
     .about h5{
         font-size: 22px;
