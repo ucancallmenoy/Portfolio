@@ -31,6 +31,11 @@ footer{
 }
 .logo img{
     width: 59px;
+    transition: 0.5s;
+}
+.logo img:hover{
+    transform: translateX(10px);
+    transition: 0.5s;
 }
 
 .menu{display: flex;}
@@ -98,8 +103,14 @@ footer{
     font-weight: 800;
     margin-bottom: .5rem;
 }
-.logo {
+.logo-h {
     width: 150px;
+    border-radius: 5px;
+    display: grid;
+    transition: 0.5s;
+}
+.logo-h:hover{
+    transform: translateY(-31px);
 }
 .title{
     font-size: 3.5rem;
@@ -220,6 +231,10 @@ footer{
     text-decoration: none;
     border-radius: 5px;
     padding: 8px 16px;
+  }
+
+  .home-button:hover{
+    background-color: #696969;
   }
 
   /* PROJECTS */
@@ -534,6 +549,7 @@ footer{
         margin: 0 auto;
         margin-top: -20px;
         border-radius: 10px;
+        box-shadow: 10px 10px 30px #282828;
     }
     .social-links{
         margin-bottom: 20px;
@@ -575,6 +591,96 @@ footer{
     color: darkgrey;
     font-weight: 600;
     margin-bottom: .5rem;
+    }
+
+    .testimonials{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 1rem;
+        text-align: center;
+        
+    }
+    .t-header{
+        margin-bottom: 2rem;
+    }
+
+    .t-header p{
+        letter-spacing: 2px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .t-header h1{
+        font-family: "Poppins",sans-serif;
+        font-size: 2rem;
+        font-weight: 550;
+    }
+    .testimonials_grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .t-card{
+        padding: 2rem;
+        display: grid;
+        gap: 1rem;
+        background-color: #ffffff;
+        border-radius: 5px;
+        box-shadow: 5px 5px 20px #282828;
+    }
+    .t-card span{
+        font-size: 12px;
+        margin-top: -10px;
+        color: #333;
+        font-weight: 600;
+    }
+    .t-card i{
+        font-size: 2.5rem;
+        color: #2e325e
+    }
+    .t-card{
+        font-size: 1rem;
+        font-weight: 500;
+        transition: transform 0.6s ease;
+    }
+    .t-card:hover{
+        transform: translateY(-20px);
+    }
+    .t-card hr{
+        width: 40px;
+        margin-bottom: auto;
+        color: black;
+    }
+    .t-card img{
+        width: 60px;
+        height: 60px;
+        margin: auto;
+        border-radius: 100%;
+        border: 1px solid #282828
+    }
+    .t-card .name{
+        font-size: 1rem;
+        font-weight: 400;
+        color: black;
+        transition: .3s;
+    }
+    .t-card .name:hover{
+        color: rgb(0, 43, 0);
+        font-weight: 600;
+    }
+
+    .t-footer p{
+        mask-border-width: 450px;
+        font-family: "Poppins",sans-serif;
+        margin: auto;
+        font-size: 1.1rem;
+        line-height: 1.rem;
+        margin-bottom: 1rem;
+        margin-top: 5rem;
+        font-weight: 500;
     }
 
 /* CONTACT */
@@ -946,4 +1052,16 @@ footer{
             display: none;
           }
 
+    }
+
+    @media (width < 900px){
+        .testimonials_grid{
+            grid-template-columns: repeat(2,1fr);
+            gap: 1rem;
+        }
+    }
+    @media (width < 600px){
+        .testimonials_grid{
+            grid-template-columns: repeat(1,1fr);
+        }
     }
