@@ -20,6 +20,19 @@ footer{
     margin-top: 50px;
 }
 .footer p{padding-top: 40px;}
+
+/* Hide scrollbar for all elements */
+* {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+*::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+
+
 /* NAVIGATION BAR */
 .nav-bar {
     width: 100%;
