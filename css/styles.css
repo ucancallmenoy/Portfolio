@@ -317,7 +317,7 @@ footer{
 
 .skills-section {
     padding-top: 4vh;
-    margin: 0 10rem;
+    margin: auto;
     box-sizing: border-box;
 }
 /* Initial state for sliding animations */
