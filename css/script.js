@@ -136,10 +136,11 @@ window.onclick = function(event) {
 
 // Close the popup when clicking outside of the popup-content
 window.onclick = function(event) {
-    const popups = document.querySelectorAll('.popup-cert');
+    const popups = document.querySelectorAll('.popup');
     popups.forEach(popup => {
         if (event.target === popup) {
             popup.style.display = "none";
         }
     });
 }
+
